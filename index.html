@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="contact.css">
+    <title>Mohamed Talaat</title>
+</head>
+<body>
+    <nav>
+        <div id="nav-container">
+            <div id="logo">Mohamed Talaat</div>
+            <div id="ham-container">
+                <div id="ham-icon" onclick="openLinks()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul id="nav-links">
+                    <li><a href="#home" onclick="openLinks()">Home</a></li>
+                    <li><a href="#projects" onclick="openLinks()">projects</a></li>
+                    <li><a href="#contact" onclick="openLinks()">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div id="home-img">
+            <img src="logo.jpg" alt="logo">
+        </div>
+        <div id="home-text">
+         <p>Hi, there</p>
+         <p>I am Mohamed Talaat.</p>
+         <h1>Graphic designer</h1>
+         <div id="home-buttons">
+            <a href="https://www.behance.net/mohamedtalat28" target="_blank"><button id="home-button1">PORTFOLIO</button></a>
+            <a href="#contact"><button id="home-button2">Contact us</button></a>
+        </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h1>My projects</h1>
+        <div id="projects-container">
+            <div id="project-card1" class="project-card">
+                <a href="https://www.behance.net/gallery/179197697/delivery-design-unofficial-social-design-for-talabat" target="_blank"><img src="photoes/talabat.jpg" alt=""></a>
+                <div id="details">
+                    <p id="detail">Talabat ( social media project )</p>
+                </div>
+            </div>
+            <div id="project-card2" class="project-card">
+                <a href="https://www.behance.net/gallery/179711213/vodafone-cash-design-unofficial-design" target="_blank"><img src="photoes/vodafon.jpg" alt=""></a>
+                <div id="details">
+                    <p id="detail">Vodafon ( social media project )</p>
+                </div>
+            </div>
+            <div id="project-card3" class="project-card">
+                <a href="https://www.behance.net/gallery/181001195/brochure-design" target="_blank"><img src="photoes/broshor.jpg" alt=""></a>
+                <div id="details">
+                    <p id="detail">Brochure project</p>
+                </div>
+            </div>
+            <div id="project-card4" class="project-card">
+                <a href="https://www.behance.net/gallery/180356493/youtube-thumbnails-designs" target="_blank"><img src="photoes/thumbail.jpg" alt=""></a>
+                <div id="details">
+                    <p id="detail">YouTube thumbnails project</p>
+                </div>
+            </div>
+            <div id="project-card5" class="project-card">
+                <a href="https://www.behance.net/gallery/178627641/weight-loss-product-social-media-design" target="_blank"><img src="photoes/weightLoss.jpg" alt=""></a>
+                <div id="details">
+                    <p id="detail">Weight loss product ( social media project )</p>
+                </div>
+            </div>
+            <div id="project-card6" class="project-card">
+                <a href="https://www.behance.net/gallery/179710555/t-shirt-design" target="_blank"><img src="photoes/tShirt.jpg" alt=""></a>
+                <div id="details">
+                    <p id="detail">T-shirt design</p>
+                </div>
+            </div>
+            <div id="project-card7" class="project-card">
+                <a href="https://www.behance.net/gallery/179709729/burger-design-socoial-media-design" target="_blank"><img src="photoes/burger.jpg" alt=""></a>
+                <div id="details">
+                    <p id="detail">Burger design</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact US</h1>
+        <div id="contact-container">
+            <a href="https://www.facebook.com/mohamed.talat.5099940?mibextid=ZbWKwL" target="_blank"><div id="card" class="facebook">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                     <path d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"></path>
+                </svg>
+            </div> </a>
+            <a href="https://instagram.com/mt_design13?igshid=MzRlODBiNWFlZA==" target="_blank"><div id="card" class="instegram">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                    <path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"></path>
+                </svg>
+            </div></a>
+           <a href="https://wa.me/+201220337628" target="_blank"><div id="card" class="whatsapp">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16"> <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                 </svg>
+            </div></a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

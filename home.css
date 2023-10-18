@@ -1,0 +1,141 @@
+#home{
+    height: calc(100vh - 62px);
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+}
+
+#home-img{
+    width: 300px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#home-img img{
+    width: 400px;
+    border-radius: 50%;
+}
+
+#home-text{
+    width: 300px;
+}
+
+#home-text p{
+    line-height: 22px;
+}
+
+#home-text p:first-child{
+    font-size: 24px;
+}
+#home-text p:nth-child(2){
+    font-size: 15px;
+    line-height: 30px;
+}
+#home-text h1{
+    font-size: 40px;
+}
+
+#home-buttons{
+    transform: translate(3px , 36px);
+}
+#home-buttons button{
+    padding: 15px;
+    border-radius: 15px;
+    border: solid 2px purple;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#home-button1{
+    background-color: purple;
+    color: white;
+    transition: all 500ms;
+}
+#home-button1:hover{
+    opacity: 0.7;
+}
+
+#home-button2{
+    transition: all 500ms;
+    animation: moving 1s infinite alternate ;
+}
+#home-button2:hover{
+    background-color: purple;
+    color: white;
+}
+
+@media (max-width: 767px) {
+    #home-img img{
+        width: 300px;
+    }
+    #home{
+        display: block;
+    }
+    #home-img{
+        margin: 80px auto 70px ;
+        justify-content: center;
+    }
+    #home-text{
+        text-align: center;
+        margin: 0 auto;
+    }
+    #home-text p{
+        line-height: 60px;
+    }
+    #home-text p:first-child{
+        font-size: 40px;
+    }
+    #home-text p:nth-child(2){
+        font-size: 30px;
+    }
+    #home-text h1{
+        font-size: 50px;
+    }
+}
+@media (min-width: 768px) and ( max-width:991px) {
+    #home-img{
+        margin: 150px auto 70px ;
+        width: 400px;
+    }
+    #home-text{
+        text-align: center;
+        margin: 0 auto;
+    }
+    #home-text p{
+        line-height: 60px;
+    }
+    #home-text p:first-child{
+        font-size: 40px;
+    }
+    #home-text p:nth-child(2){
+        font-size: 30px;
+        line-height: 50px;
+    }
+    #home-text h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 300px) {
+    #home-img{
+        width: 200px;
+    }
+    #home-img img{
+        width: 200px;
+    }
+    #home-text p:first-child{
+        font-size: 30px;
+    }
+    #home-text p:nth-child(2){
+        font-size: 20px;
+    }
+    #home-text h1{
+        font-size: 30px;
+    }
+    #home-text p{
+        line-height: 20px;
+    }
+}
